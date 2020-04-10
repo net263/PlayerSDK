@@ -10,7 +10,6 @@
 #import "GSPlayerParamViewController.h"
 #import "GSBaseNavigationController.h"
 #import <GSCommonKit/GSCommonKit.h>
-#import <Bugly/Bugly.h>
 #import <UserNotifications/UserNotifications.h>
 @interface AppDelegate () <UNUserNotificationCenterDelegate>
 
@@ -41,15 +40,7 @@
     }];
     center.delegate = self;
     
-    BuglyConfig * config = [[BuglyConfig alloc] init];
-    // 设置自定义日志上报的级别，默认不上报自定义日志
-    config.blockMonitorEnable = YES;
-    config.blockMonitorTimeout = 2;
-    config.unexpectedTerminatingDetectionEnable = YES;
-    [Bugly startWithAppId:@"96e5425a5e" config:config];
-    
     NSLog(@"Use PlayerSDK verison %.02f %s",PlayerSDKVersionNumber,PlayerSDKVersionString);
-    
     
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

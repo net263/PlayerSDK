@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04296AB321099F0000501F32 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AAE21099F0000501F32 /* libswresample.a */; };
-		04296AB421099F0000501F32 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AAF21099F0000501F32 /* libswscale.a */; };
-		04296AB521099F0000501F32 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB021099F0000501F32 /* libavutil.a */; };
-		04296AB621099F0000501F32 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB121099F0000501F32 /* libavcodec.a */; };
-		04296AB721099F0000501F32 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB221099F0000501F32 /* libavformat.a */; };
-		04296ABD21099F0C00501F32 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB821099F0C00501F32 /* libx264.a */; };
-		04296AC321099F1300501F32 /* liblibfaad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AC221099F1300501F32 /* liblibfaad.a */; };
-		04871E01212183A300190352 /* PlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04871E02212183A300190352 /* PlayerSDK.framework */; };
-		04871E21212285AB00190352 /* PlayerSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04871E20212285AA00190352 /* PlayerSDK.bundle */; };
 		048AAD50212412B500012B2D /* UIFont+GSFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AAD4C212412B400012B2D /* UIFont+GSFonts.m */; };
 		048AAD51212412B500012B2D /* UIView+GSSetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AAD4D212412B400012B2D /* UIView+GSSetRect.m */; };
 		048AAD57212412B900012B2D /* GSChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AAD54212412B900012B2D /* GSChatModel.m */; };
@@ -80,9 +71,6 @@
 		049D7767213FE38A00184833 /* GSDiagnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D7766213FE38A00184833 /* GSDiagnosisViewController.m */; };
 		049D776A2140BE3200184833 /* GSMoreInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D77692140BE3200184833 /* GSMoreInfoViewController.m */; };
 		049D776D2140BE6F00184833 /* GSCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D776C2140BE6F00184833 /* GSCustomViewController.m */; };
-		049D776F2140C2CC00184833 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049D776E2140C2CB00184833 /* Bugly.framework */; };
-		04E2FD5D20F3073D00CF0F3C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E2FD5E20F3073D00CF0F3C /* GPUImage.framework */; };
-		04E2FDDE20F3711100CF0F3C /* GSCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E2FDDF20F3711100CF0F3C /* GSCommonKit.framework */; };
 		04EDC91F2125338C000DB4B0 /* GSDocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC91E2125338C000DB4B0 /* GSDocViewController.m */; };
 		04EDC926212547A7000DB4B0 /* InfoEditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EDC923212547A7000DB4B0 /* InfoEditTableViewCell.xib */; };
 		04EDC927212547A7000DB4B0 /* InfoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDC924212547A7000DB4B0 /* InfoEditViewController.m */; };
@@ -97,13 +85,12 @@
 		04FC0A862153892700AF9E3B /* GSVodDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0A802153892700AF9E3B /* GSVodDownloadController.m */; };
 		04FC0A872153892700AF9E3B /* GSVodParamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0A812153892700AF9E3B /* GSVodParamController.m */; };
 		04FC0A882153892700AF9E3B /* GSVodPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC0A842153892700AF9E3B /* GSVodPlayerController.m */; };
+		362335EF601B4FB76C1E757C /* libPods-PlayerSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9679F2EF7B57D65FFC40932F /* libPods-PlayerSDKDemo.a */; };
 		442ED9A32396509400235CE8 /* GSHongbaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442ED9A22396509400235CE8 /* GSHongbaoViewController.m */; };
-		442ED9A52396594500235CE8 /* GSHongbaoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442ED9A42396594500235CE8 /* GSHongbaoKit.framework */; };
 		442ED9B523978E1000235CE8 /* HongBaoGrabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442ED9B423978E1000235CE8 /* HongBaoGrabView.m */; };
 		442ED9B82397A8D000235CE8 /* HongbaoAmountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442ED9B72397A8D000235CE8 /* HongbaoAmountView.m */; };
 		442ED9BB23989B1400235CE8 /* HongbaoGragListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442ED9BA23989B1400235CE8 /* HongbaoGragListView.m */; };
 		442ED9BE2398D3E400235CE8 /* HongbaoSelfGrabListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442ED9BD2398D3E400235CE8 /* HongbaoSelfGrabListView.m */; };
-		4433BFCE22F9272D00AEBB67 /* libPlayerSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB921099F0C00501F32 /* libPlayerSDKLib.a */; };
 		4435FD64230131D600DB652D /* GSEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4435FD63230131D600DB652D /* GSEmotionManager.m */; };
 		658364CD1BCF9D380055FCD7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 658364CC1BCF9D380055FCD7 /* AppDelegate.mm */; };
 		65CB8C691B28147E002AE989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CB8C681B28147E002AE989 /* main.m */; };
@@ -113,8 +100,6 @@
 		9604D4161B467DD300A7E8DE /* ChatListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604D4151B467DD300A7E8DE /* ChatListView.m */; };
 		96712E8B1B4E465E001E2F57 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96712E8D1B4E465E001E2F57 /* Localizable.strings */; };
 		F324CE2221C0A376001E943E /* shake_something.wav in Resources */ = {isa = PBXBuildFile; fileRef = F324CE2121C0A376001E943E /* shake_something.wav */; };
-		F37614C22175D34200D2188D /* GSDocKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37614C12175D34200D2188D /* GSDocKit.framework */; };
-		F38258C022E94E7A0005D58E /* libPlayerSDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04296AB921099F0C00501F32 /* libPlayerSDKLib.a */; };
 		F39EBD1623A1E34B002BDE18 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39EBD1423A1E34B002BDE18 /* UserNotifications.framework */; };
 		F39EBDF023A76375002BDE18 /* GSItemBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F39EBDEF23A76375002BDE18 /* GSItemBar.m */; };
 		F39EBDF423A76397002BDE18 /* GSVodSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = F39EBDF223A76397002BDE18 /* GSVodSwitchView.m */; };
@@ -128,16 +113,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04296AAE21099F0000501F32 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../../lib/ios/libswresample.a; sourceTree = "<group>"; };
-		04296AAF21099F0000501F32 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../lib/ios/libswscale.a; sourceTree = "<group>"; };
-		04296AB021099F0000501F32 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../../lib/ios/libavutil.a; sourceTree = "<group>"; };
-		04296AB121099F0000501F32 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../lib/ios/libavcodec.a; sourceTree = "<group>"; };
-		04296AB221099F0000501F32 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../lib/ios/libavformat.a; sourceTree = "<group>"; };
-		04296AB821099F0C00501F32 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../../../../../lib/ios/libx264.a; sourceTree = "<group>"; };
-		04296AB921099F0C00501F32 /* libPlayerSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPlayerSDKLib.a; path = ../../../../../lib/ios/libPlayerSDKLib.a; sourceTree = "<group>"; };
-		04296AC221099F1300501F32 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibfaad.a; path = ../../../../../lib/ios/offlineplay/liblibfaad.a; sourceTree = "<group>"; };
 		04871E02212183A300190352 /* PlayerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlayerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04871E20212285AA00190352 /* PlayerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PlayerSDK.bundle; path = ../../PlayerSDK.bundle; sourceTree = "<group>"; };
 		048AAD4C212412B400012B2D /* UIFont+GSFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GSFonts.m"; sourceTree = "<group>"; };
 		048AAD4D212412B400012B2D /* UIView+GSSetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSSetRect.m"; sourceTree = "<group>"; };
 		048AAD4E212412B400012B2D /* UIFont+GSFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GSFonts.h"; sourceTree = "<group>"; };
@@ -250,7 +226,6 @@
 		049D77692140BE3200184833 /* GSMoreInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMoreInfoViewController.m; sourceTree = "<group>"; };
 		049D776B2140BE6F00184833 /* GSCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCustomViewController.h; sourceTree = "<group>"; };
 		049D776C2140BE6F00184833 /* GSCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCustomViewController.m; sourceTree = "<group>"; };
-		049D776E2140C2CB00184833 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		04E2FD5E20F3073D00CF0F3C /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2FDDF20F3711100CF0F3C /* GSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EDC91D2125338C000DB4B0 /* GSDocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSDocViewController.h; sourceTree = "<group>"; };
@@ -306,6 +281,9 @@
 		96712E761B4E07A4001E2F57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		96712E8C1B4E465E001E2F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		96712E8E1B4E4660001E2F57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9679F2EF7B57D65FFC40932F /* libPods-PlayerSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayerSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C01719C7B027A61A734F8EC /* Pods-PlayerSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-PlayerSDKDemo/Pods-PlayerSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA677A8FB31C179F0DEB604 /* Pods-PlayerSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-PlayerSDKDemo/Pods-PlayerSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F324CE2121C0A376001E943E /* shake_something.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_something.wav; sourceTree = "<group>"; };
 		F37614C12175D34200D2188D /* GSDocKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39EBD1423A1E34B002BDE18 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
@@ -335,50 +313,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39EBD1623A1E34B002BDE18 /* UserNotifications.framework in Frameworks */,
-				442ED9A52396594500235CE8 /* GSHongbaoKit.framework in Frameworks */,
-				F37614C22175D34200D2188D /* GSDocKit.framework in Frameworks */,
-				04871E01212183A300190352 /* PlayerSDK.framework in Frameworks */,
-				04E2FDDE20F3711100CF0F3C /* GSCommonKit.framework in Frameworks */,
-				04E2FD5D20F3073D00CF0F3C /* GPUImage.framework in Frameworks */,
-				04296AB621099F0000501F32 /* libavcodec.a in Frameworks */,
-				04296AB721099F0000501F32 /* libavformat.a in Frameworks */,
-				04296ABD21099F0C00501F32 /* libx264.a in Frameworks */,
-				4433BFCE22F9272D00AEBB67 /* libPlayerSDKLib.a in Frameworks */,
-				04296AB521099F0000501F32 /* libavutil.a in Frameworks */,
-				04296AB321099F0000501F32 /* libswresample.a in Frameworks */,
-				F38258C022E94E7A0005D58E /* libPlayerSDKLib.a in Frameworks */,
-				049D776F2140C2CC00184833 /* Bugly.framework in Frameworks */,
-				04296AC321099F1300501F32 /* liblibfaad.a in Frameworks */,
-				04296AB421099F0000501F32 /* libswscale.a in Frameworks */,
+				362335EF601B4FB76C1E757C /* libPods-PlayerSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04296AAC21099EE000501F32 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				04296AC221099F1300501F32 /* liblibfaad.a */,
-				04296AB921099F0C00501F32 /* libPlayerSDKLib.a */,
-				04296AB821099F0C00501F32 /* libx264.a */,
-				04296AAD21099EF400501F32 /* ffmpeg */,
-			);
-			name = Libs;
-			sourceTree = "<group>";
-		};
-		04296AAD21099EF400501F32 /* ffmpeg */ = {
-			isa = PBXGroup;
-			children = (
-				04296AB121099F0000501F32 /* libavcodec.a */,
-				04296AB221099F0000501F32 /* libavformat.a */,
-				04296AB021099F0000501F32 /* libavutil.a */,
-				04296AAE21099F0000501F32 /* libswresample.a */,
-				04296AAF21099F0000501F32 /* libswscale.a */,
-			);
-			name = ffmpeg;
-			sourceTree = "<group>";
-		};
 		048AAD4B212412B400012B2D /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,7 +398,6 @@
 			children = (
 				04FC0A6121537EE900AF9E3B /* GSMenu.h */,
 				04FC0A6021537EE900AF9E3B /* GSMenu.m */,
-				049D776E2140C2CB00184833 /* Bugly.framework */,
 				048AAE252124464900012B2D /* MBProgressHUD.h */,
 				048AAE262124464A00012B2D /* MBProgressHUD.m */,
 				048AADFF21242C5400012B2D /* MBProgressHUD+GSMJ.h */,
@@ -696,6 +636,15 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		15BA6CBC70770C82BA04F636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C01719C7B027A61A734F8EC /* Pods-PlayerSDKDemo.debug.xcconfig */,
+				AEA677A8FB31C179F0DEB604 /* Pods-PlayerSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		442ED9B223978DD500235CE8 /* hongbao */ = {
 			isa = PBXGroup;
 			children = (
@@ -721,6 +670,7 @@
 				04E2FDDF20F3711100CF0F3C /* GSCommonKit.framework */,
 				04E2FD5E20F3073D00CF0F3C /* GPUImage.framework */,
 				65D7A69F1FA99A6300495D91 /* liblibfaad.a */,
+				9679F2EF7B57D65FFC40932F /* libPods-PlayerSDKDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -731,6 +681,7 @@
 				65CB8C651B28147E002AE989 /* PlayerSDKDemo */,
 				65CB8C641B28147E002AE989 /* Products */,
 				658D95DC1F53BCF200A9172D /* Frameworks */,
+				15BA6CBC70770C82BA04F636 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -748,10 +699,8 @@
 				048AAD702124133300012B2D /* ViewControllers */,
 				048AAD8F212414BF00012B2D /* ThirdParty */,
 				048AAD4B212412B400012B2D /* Category */,
-				04296AAC21099EE000501F32 /* Libs */,
 				048AAD52212412B900012B2D /* Model */,
 				048AAD59212412BE00012B2D /* Views */,
-				04871E20212285AA00190352 /* PlayerSDK.bundle */,
 				65CB8C6A1B28147E002AE989 /* AppDelegate.h */,
 				658364CC1BCF9D380055FCD7 /* AppDelegate.mm */,
 				9604D4141B467DD300A7E8DE /* ChatListView.h */,
@@ -811,11 +760,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65CB8C861B28147E002AE989 /* Build configuration list for PBXNativeTarget "PlayerSDKDemo" */;
 			buildPhases = (
+				7F6A4C282AED196E1469116D /* [CP] Check Pods Manifest.lock */,
 				65CB8C5F1B28147E002AE989 /* Sources */,
 				65CB8C601B28147E002AE989 /* Frameworks */,
 				65CB8C611B28147E002AE989 /* Resources */,
-				049D77702140C2DD00184833 /* ShellScript */,
 				F3FFB29B2385197B00686D59 /* ShellScript */,
+				13E5C2B90CCA46CB8465EFDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -879,7 +829,6 @@
 				048AAE5221244B6200012B2D /* keyboard@2x.png in Resources */,
 				048AAE5121244B6200012B2D /* voice@2x.png in Resources */,
 				04EDC926212547A7000DB4B0 /* InfoEditTableViewCell.xib in Resources */,
-				04871E21212285AB00190352 /* PlayerSDK.bundle in Resources */,
 				04FC0A6F21537F9200AF9E3B /* pause@2x.png in Resources */,
 				048AAE4E21244B6200012B2D /* Delete_ios7@3x.png in Resources */,
 				96712E8B1B4E465E001E2F57 /* Localizable.strings in Resources */,
@@ -908,18 +857,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		049D77702140C2DD00184833 /* ShellScript */ = {
+		13E5C2B90CCA46CB8465EFDA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayerSDKDemo/Pods-PlayerSDKDemo-resources.sh",
+				"${PODS_ROOT}/PlayerSDK/Resources/PlayerSDK.bundle",
 			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayerSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"96e5425a5e\"\n# #\nBUGLY_APP_KEY=\"7b7b26b0-894d-40f4-8a59-557ecce90e3c\"\n# #\nBUNDLE_IDENTIFIER=\"com.gensee.playerSDKDemo\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\nUPLOAD_ARCHIVE_ONLY=1\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayerSDKDemo/Pods-PlayerSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6A4C282AED196E1469116D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayerSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		F3FFB29B2385197B00686D59 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1148,6 +1124,7 @@
 		};
 		65CB8C871B28147E002AE989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C01719C7B027A61A734F8EC /* Pods-PlayerSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1155,20 +1132,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GHP23DFJR;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../Framework/",
-					"$(PROJECT_DIR)/PlayerSDKDemo/ThirdParty",
-					"$(PROJECT_DIR)/../",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PlayerSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PlayerSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../../../../lib/ios/**",
-					"$(PROJECT_DIR)/../Libs/**",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.playerSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1179,6 +1149,7 @@
 		};
 		65CB8C881B28147E002AE989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA677A8FB31C179F0DEB604 /* Pods-PlayerSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1186,20 +1157,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6GHP23DFJR;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../Framework/",
-					"$(PROJECT_DIR)/PlayerSDKDemo/ThirdParty",
-					"$(PROJECT_DIR)/../",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PlayerSDKDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = PlayerSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../../../../lib/ios/**",
-					"$(PROJECT_DIR)/../Libs/**",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gensee.playerSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
