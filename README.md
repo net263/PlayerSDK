@@ -27,6 +27,9 @@ pod 'PlayerSDK'
 
 PlayerSDK 的使用场景较多，我们公开了一个文档进行介绍：
 
+https://github.com/net263/PlayerSDK/wiki
+
+
 
 ## Author
 
