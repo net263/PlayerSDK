@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  PlayerSDKDemo
+
+  Created by gzq on 7/9/15.
+  Copyright (c) 2015 Geensee. All rights reserved.
+*/
+
+
+
+//LoginViewController
+"域名格式不正确" = "domain error";
+"服务类型格式不正确" = "serviceType error";
+"房间号格式不正确" = "roomNumber error";
+
+//MainTableViewController
+"网络错误" = "network error";
+"参数错误" = "parameter error";
+"直播尚未开始" = "join too early";
+"直播不存在" = "live not exist";
+"人数已满" = "live is full";
+"连接超时" = "time out";
+
+//InvestigationViewController
+"返回" = "back";
+"强制投票" = "should vote";
+"不能返回，请投票" = "can't back, please vote";
+
+//ChatViewController
+"群聊" = "All";
+"被踢出直播" = "kicked out of the live";
+"超时" = "out of time";
+"直播关闭" = "live close";
+"位置错误" = "wrong location";
+"退出直播" = "leave the live";
+
+//public
+"知道了" = "done";
+"创建直播实例失败" = "create player failed";
+"调用加入直播失败" = "join return failed";
+"网络错误" = "network failed";
+"未知错误" = "unknow error";
+"参数错误" = "params error";
+"连接失败" = "connect failed";
+"连接超时" = "time out";
+"链接媒体服务器失败" = "REMP_FAILED";
+"直播不存在" = "live not exist";
+"直播尚未开始" = "too early";
+"人数已满" = "live is full";
+"错误" = "error";
+"请退出重试" = "please back and try again";
+"断线重连" = "reconnecting";
+
+
+"Video" = "Video";
+"Doc" = "Doc";
+"Chat" = "Chat";
+"Qa" = "Qa";
+"Vote" = "Vote";
+"Diagnosis" = "Diagnosis";
+"MoreInfo" = "MoreInfo";
+"Hongbao" = "Hongbao";
+

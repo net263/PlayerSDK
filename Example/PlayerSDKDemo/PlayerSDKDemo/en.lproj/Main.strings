@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "服务类型，webcast或training"; ObjectID = "75W-hv-IU7"; */
+"75W-hv-IU7.placeholder" = "webcast/training";
+
+/* Class = "UITextField"; placeholder = "域名，如:dem  o.gensee.com"; ObjectID = "9Gi-xx-OOx"; */
+"9Gi-xx-OOx.placeholder" = "Domain,eg:demo.gensee.com";
+
+/* Class = "UITextField"; placeholder = "观看密码"; ObjectID = "AJh-LY-EcO"; */
+"AJh-LY-EcO.placeholder" = "WatchPassword";
+
+/* Class = "UINavigationItem"; title = "欢迎使用PlayerSDK"; ObjectID = "AOS-sr-i34"; */
+"AOS-sr-i34.title" = "Welcome to use PlayerSDK";
+
+/* Class = "UITextField"; placeholder = "8位数字的房间号"; ObjectID = "IfR-WB-NHD"; */
+"IfR-WB-NHD.placeholder" = "RoomNumber(eight-digit)";
+
+/* Class = "UIButton"; normalTitle = "连接"; ObjectID = "Ony-el-bhg"; */
+"Ony-el-bhg.normalTitle" = "Connect";
+
+/* Class = "UITextField"; placeholder = "昵称"; ObjectID = "mFU-vR-YzS"; */
+"mFU-vR-YzS.placeholder" = "Nickname";
