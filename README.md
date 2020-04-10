@@ -6,23 +6,31 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+为了使用`Example`工程，请在其`Podfile`文件目录下，运行`pod install`
 
 ## Requirements
 
- - iOS 8.0 or higher
- - ARC
- - Xcode 8.0 or higher
- - Not support bitcode
+ - iOS 8.0或者更高版本
+ - 仅支持ARC
+ - Xcode 8.0或者更高版本
+ - 不支持 bitcode
  
 ## Installation
 
-PlayerSDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+PlayerSDK 现已可通过 [CocoaPods](https://cocoapods.org) 集成.
+
+集成方式：
+
+由于仓库未更新，可能导致无法找到的问题，请先输入
+```c
+pod repo update
+```
+然后进行修改`Podfile`
 
 ```ruby
 pod 'PlayerSDK'
 ```
+
 ## Usage
 
 PlayerSDK 的使用场景较多，我们公开了一个文档进行介绍：
