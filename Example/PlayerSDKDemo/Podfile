@@ -5,6 +5,9 @@ target 'PlayerSDKDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   # use_frameworks!
 pod 'PlayerSDK'
+pod 'MBProgressHUD','~>1.1.0'
+pod 'IQKeyboardManager'
+pod 'Reachability'
   # Pods for PlayerSDKDemo
 
 end
