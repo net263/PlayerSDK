@@ -256,10 +256,18 @@ typedef enum : NSUInteger {
 @optional
 /**
  *  初始化VodPlayer代理,为了优化视频加载速度，不再等文档加载，所以此处的文档有可能还并未下载好，docInfos可能是空，随后会从onDocInfo:回调
-*  @param result    初始化结果, 0: 成功； 0x0c: license满，请找相关人员（非技术）扩充点播并发；10015：已下载点播的文件不完整,
+ *  @param result    初始化结果, 0: 成功； 0x0c: license满，请找相关人员（非技术）扩充点播并发；10015：已下载点播的文件不完整,
  *  @param haveVideo 是否含有视频
- *  @param duration  点播件（录制件）总长度，单位：毫秒
+ *  @param duration  点播件（录制件）总长度，单位：毫秒 (1s=1000ms)
  *  @param docInfos  文档信息
+ 
+ 
+ @discussion: docInfos的元素数据结构为NSDictionary,内容为
+ {
+    docName = "xxxx.pptx";
+    pages = ( { timestamp = 10014365; title = "xxxxxx"; } );
+ }
+ 
  */
 - (void)onInit:(int) result haveVideo:(BOOL)haveVideo duration:(int)duration docInfos:(NSArray*)docInfos ;
 

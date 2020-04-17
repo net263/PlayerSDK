@@ -986,12 +986,12 @@ typedef NS_ENUM (NSUInteger, GSPVideoCrop){
 /**
  *  直播聊天视图
  */
-@property (nonatomic, weak) GSPChatView *chatView;
+@property (nonatomic, weak) GSPChatView *chatView DEPRECATED_MSG_ATTRIBUTE("已废弃");;
 
 /**
  *  直播问答视图
  */
-@property (nonatomic, weak) GSPQaView *qaView;
+@property (nonatomic, weak) GSPQaView *qaView DEPRECATED_MSG_ATTRIBUTE("已废弃");
 
 /**
  *  直播视频视图,用于观看直播视频
@@ -1002,7 +1002,7 @@ typedef NS_ENUM (NSUInteger, GSPVideoCrop){
 /**
  *  直播问卷调查视图
  */
-@property (nonatomic, weak) GSPInvestigationView *investigationView;
+@property (nonatomic, weak) GSPInvestigationView *investigationView DEPRECATED_MSG_ATTRIBUTE("已废弃");
 
 /**
  *  直播中自己的用户信息
@@ -1013,15 +1013,27 @@ typedef NS_ENUM (NSUInteger, GSPVideoCrop){
 @property (nonatomic, assign) int audioQueueLength;
 
 
-@property (nonatomic, weak) GSPVideoView *previewVideoView;
+@property (nonatomic, weak) GSPVideoView *previewVideoView DEPRECATED_MSG_ATTRIBUTE("use preview");
 
+/**
+ 用于装载预览视图 - 传入一个父视图，当开始预览时，我们会将视图addSubview形式添加到preview上
+ */
 @property (nonatomic, weak) UIView *preview;
 
+/**
+ 是否进行美颜 - 仅简单磨皮美白
+ */
 @property (nonatomic, assign) BOOL beautifyFace;
 
 
+/**
+ 裁剪比例
+ */
 @property (nonatomic, assign) GSPVideoCrop videoPublishCrop;
 
+/**
+ 视频采集参数
+ */
 @property (nullable, nonatomic, strong) GSLiveVideoConfiguration *videoConfiguration;
 /**
  是否强制使用httpAPI；默认为NO，使用https
